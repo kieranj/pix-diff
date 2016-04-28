@@ -47,7 +47,7 @@ function PixDiff(options) {
             this._capabilities = data.capabilities;
             assert.ok(this._capabilities.browserName, "Browser name is undefined.");
             // Require PixDiff matchers
-            require(path.resolve('framework', data.framework));
+            require(path.resolve(__dirname, 'framework', data.framework));
         }.bind(this));
 }
 
