@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "blink-diff": "1.0.7",
-    "png-image": "1.0.0",
+    "png-image": "git@github.com:kieranj/png-image.git#update-pngjs",
     "camel-case": "1.2.2"
   },
   "devDependencies": {
